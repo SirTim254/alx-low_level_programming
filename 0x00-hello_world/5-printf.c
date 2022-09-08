@@ -3,14 +3,10 @@
 
 
 /**
- *
  *main - Entry point
- *
  *printf:print on the screen
- *
  *Return: On success return 0
- *
- *
+ *main: start of the main programme
  */
 int main(void)
 
