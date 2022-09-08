@@ -1,17 +1,9 @@
 #include <stdio.h>
-
-
-
 /**
- *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
+ *main - Start of the programme
+ *Return: Always 0 (Success)
+ *main:where the actual programme starts
+ */
 int main(void)
 
 {
