@@ -1,13 +1,16 @@
 #include <stdio.h>
+
+
+
 /**
  *
- *  main  is the start of Entry point
+ *  * main - Entry point
  *
- * 
- *  Return: Shoul return zero on success
+ *   *
  *
- * 
- */
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 
