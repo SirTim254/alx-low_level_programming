@@ -3,10 +3,9 @@
 #include <time.h>
 /**
  * main - start of main programme
- * Return: on success return zero 
+ * Return:on success return zero
  */
 int main(void)
-
 {
 int n;
 srand(time(0));
