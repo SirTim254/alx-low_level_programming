@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main -Programme entry point
+*main-Programme entry point
 *Return:Return zero on success 
 */
 int main(void)
 {
 int i;
-for (i = 0; i < 10; i++)
+for(i = 0; i < 10; i++)
 printf("%d", i);
 printf("\n");
 return (0);
