@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main -Programme entry point
- *Return:Return zero on success 
+*main -Programme entry point
+*Return:Return zero on success 
 */
 int main(void)
 {
