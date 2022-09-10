@@ -7,9 +7,9 @@
 
 
 /**
-* main - Entry point
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 
 
 
@@ -21,42 +21,43 @@ int main(void)
 
 
 for (d = '0'; d < '9'; d++)
-	{
-for (p = d + 1; p <= '9'; p++)
-{
+
+		{
+
+					for (p = d + 1; p <= '9'; p++)
+
+								{
+
+												if (p != d)
+
+																{
+
+																					putchar(d);
+
+																									putchar(p);
 
 
 
-}
-															if (p != d)
-																	{
+																													if (d == '8' && p == '9')
 
-																								putchar(d);
-
-																												putchar(p);
+																																			continue;
 
 
 
-																																if (d == '8' && p == '9')
+																																	putchar(',');
 
-																																						continue;
+																																					putchar(' ');
 
+																																								}
 
+														}
 
-																																				putchar(',');
+						}
 
-																																								putchar(' ');
-
-																																											}
-
-																	}
-
-									}
-
-				putchar('\n');
+	putchar('\n');
 
 
 
-					return (0);
+		return (0);
 
 }
