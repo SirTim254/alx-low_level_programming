@@ -2,8 +2,8 @@
 
 /*
  * main:start of the programme
- * main - Entry point
- * Return: Always 0 (Success)
+ * Main -Start of programme
+ * Return: Return zero on success
  */
 
 int main(void)
