@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - Prints the alphabet letters in lowercase
- * 
+ * print_alphabet - Prints the alphabet letters in lowercase 
  * Return: Retuen 0 on successful execution
  */
 void print_alphabet(void)
@@ -16,4 +15,4 @@ void print_alphabet(void)
 
 	_putchar('\n');
 
-}
+iii}
