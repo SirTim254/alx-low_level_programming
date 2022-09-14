@@ -5,19 +5,30 @@
  *@vw: number to be passed to the function
  *Return: Return zero on success.
  */
-
-int print_last_digit(int vw)
+int print_last_digit(int nld)
 
 {
 
-	vw = vw % 10;
+		int pld;
 
-		if (vw < 0)
 
-			vw = -vw;
 
-			_putchar(vw + '0');
+			pld = (nld % 10);
 
-		return (vw);
+
+
+				if (pld < 0)
+
+						{
+
+									pld = (-1 * pld);
+
+										}
+
+
+
+					_putchar(pld + '0');
+
+						return (pld);
 
 }
