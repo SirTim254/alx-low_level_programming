@@ -6,11 +6,11 @@
  *Return: Return zero on success.
  */
 
-int print_last_digit(int wv)
+int print_last_digit(int vw)
 
 {
 
-		vw = n % 10;
+	vw = vw % 10;
 
 		if (vw < 0)
 
