@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *Main - Start of the programme
+ *Main: Start of the programme
  *_putchar - writes the character c to standard output
- *main: The character to print
+ *main- The character to print
  *Return: return zeroo on sucess
  */
 
