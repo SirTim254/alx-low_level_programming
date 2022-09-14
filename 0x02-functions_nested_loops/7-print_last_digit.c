@@ -2,7 +2,7 @@
 /**
  * print_last_digit - prints the last digit of a number
  *
- *@vw: number to be passed to the function
+ *@nld: number to be passed to the function
  *Return: Return zero on success.
  */
 int print_last_digit(int nld)
@@ -17,18 +17,14 @@ int print_last_digit(int nld)
 
 
 
-				if (pld < 0)
-
-						{
-
-									pld = (-1 * pld);
-
-										}
+		if (pld < 0)
+				{
+				pld = (-1 * pld);
+				}
 
 
+				_putchar(pld + '0');
 
-					_putchar(pld + '0');
-
-						return (pld);
+		return (pld);
 
 }
