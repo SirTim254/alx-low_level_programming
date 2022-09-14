@@ -3,9 +3,7 @@
  * print_alphabet - Prints the alphabet letters in lowercase
  * 
  * Return: Retuen 0 on successful execution
- *
  */
-
 void print_alphabet(void)
 {
 	char alpha;
